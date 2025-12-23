@@ -1,3 +1,10 @@
+package com.example.jpa_practice.domain.review.exception;
+
+import com.example.jpa_practice.global.apiPayload.code.BaseErrorCode;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+
 @Getter
 @RequiredArgsConstructor
 public enum ReviewErrorCode implements BaseErrorCode {
